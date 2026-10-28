@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+
+# Crash artifacts (scripts default to /tmp; ignore any stray local copies)
+*_crash_bundle_*/
+*_crash_bundle_*.tar.gz
+*_logcat_*.raw.log
+*_logcat_*.filtered.log
+bugreport.zip
+
+# Logs / temp
+*.log
+.tmp/
+.tmp
